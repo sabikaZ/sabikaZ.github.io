@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset ="utf-8"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHREK JUICE</title>
+<meta name="content" ="width-divice=width,initial-scale 1.0">
+<!--<link rel="stylesheet" href="juice.css"/>-->
+<link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.css" type="text/css">
+<script src="bootstrap-3.3.7/dist/js/bootstrap.js"></script>
+<script src="bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+<script src="bootstrap-3.3.7/dist/css/bootstrap.min.css"></script>
+<script src="jquery.sldr-master/js/jquery.min.js"></script>
+<!--///*<script src="../js/jquery-1.11.3.min.js" type="text/javascript"></script>
+//<script src="../js/jssor.slider-23.1.1.mini.js" type="text/javascript"></script>*/-->
+<script src="jquery-ui-1.12.1.custom/jquery-ui.css"></script>
+<!--<script type="text/javascript"></script>-->
+<script src="jquery-ui-1.12.1.custom/jquery-ui.min.css" type="text/javascript"</script>
+
+</script>
+<script src="jquery.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"> </script>-->
+<script>
+$(window).load(function(){
+        $('.juice').juice();
+		});
+</script>
+</head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+</head>
+<body style="padding:0px; margin:0px; background-color:#fff;font-family:'Open Sans',sans-serif,arial,helvetica,verdana">
+
+<nav id="navi" class="navbar navbar-default" >
+<img style="margin-left:15px;"  class="navbar-left"src="img/frek2.png" width="70" height="50">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">SHREK JUICE</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+     <!-- <ul class="nav navbar-nav">-->
+      <ul class="nav navbar-nav navbar-right">
+     
+        <li><a href="index.html">HOME</a></li>
+        <li class="dropdown active">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="">PRODUCTS & MENU <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li  ><a href="fruit.html">Fruit juices</a></li>
+			<li><a href="vegetable.html">Vegetable juices</a></li>
+			<li class="active"><a href="smoothie.html">Smoothies</a></li>
+			<li><a href="protein.html">Protein shakes</a></li>
+			<li><a href="winter.html">Winter menu</a></li>
+			<li ><a href="chocolate.html">Chocolate juices</a></li>
+			<li><a href="mocktail.html">Mock Tails</a></li>
+
+          </ul>
+        </li>
+        
+      
+      
+     <li><a href="store.html">STORE LOCATION</a></li>
+	<li><a href="franchising.html">FRANCHISING</a></li>
+	<li><a href="catering.html">CATERING</a></li>
+	<li><a href="contact.html">CONTACT</a></li>
+	<li><a href="feedback.html">FEEDBACK</a><li>
+	<li><a href="about.html">ABOUT US</a></li>
+        
+        <!--<li><a href=""><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href=""><span class="glyphicon glyphicon-log-in"></span>About us</a></li>-->
+      </ul>
+      <!--</ul>-->
+     
+    </div>
+  </div>
+</nav>
+
+</div>
+</div>
+
+<script src="jquery-3.2.1.min.js"></script>
+<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="js/jssor.slider-23.1.1.mini.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+
+
+
+jQuery(document).ready(function ($) {
+
+            var jssor_1_SlideoTransitions = [
+              [{b:900,d:2000,x:-379,e:{x:7}}],
+              [{b:900,d:2000,x:-379,e:{x:7}}],
+              [{b:-1,d:1,o:-1,sX:2,sY:2},{b:0,d:900,x:-171,y:-341,o:1,sX:-2,sY:-2,e:{x:3,y:3,sX:3,sY:3}},{b:900,d:1600,x:-283,o:-1,e:{x:16}}]
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*responsive code end*/
+        });
+		
+		
+    </script>
+ 
+    <style>
+		
+		
+		.jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 22 css */
+        /*
+        .jssora22l                  (normal)
+        .jssora22r                  (normal)
+        .jssora22l:hover            (normal mouseover)
+        .jssora22r:hover            (normal mouseover)
+        .jssora22l.jssora22ldn      (mousedown)
+        .jssora22r.jssora22rdn      (mousedown)
+        .jssora22l.jssora22lds      (disabled)
+        .jssora22r.jssora22rds      (disabled)
+        */
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url('img/a22.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+        .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
+        .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+		
+		
+		*{
+         margin:0;
+		 padding:0;
+		 border:0;
+}
+body{
+       background:#f0f0f0;
+	   font:14px/20px arial,sen Arial, Helvetica, sans-serif;
+	   color:#555;
+	   margin:0;
+}
+h1{
+
+     text-align:center;
+	 font-size:180%;
+	 line-height:120%;
+	 padding:5%;
+}
+
+ h2{
+     text-decoration:underline;
+   line-height:120%;
+     padding:2%;
+}
+h3{
+     line-height:110%;
+	 padding:5% 0;
+}
+p{ 
+padding:2%;
+}
+img{
+     text-align:center;
+	 max-height:100%
+	 height:auto;
+	 width:auto;
+}
+a{
+      color:#F8F4B1;
+      text-decoration:none;
+	  font-weight:bold;
+}
+a:hover{
+color:#FF3366;
+}
+/*<!--header{
+        background-color:#FF9428;
+		width:100%;
+		height:10%;
+		position:fixed;
+		top:0;
+		left:0;
+		z-index:100%;
+		opacity:0.90;
+}-->*/
+#logo{
+margin:20px;
+float:left;
+width:200px;
+height:6opx;
+background:url(http://www.w3newbie.com/wp-content/uploads/logo.jpg) no-repeat center;
+}
+/*nav{
+     float:right;
+	 padding:35px 2opx 20px opx;
+}*/
+#menu-icon{
+  display:hidden;
+  width:40px;
+  height:40px;
+  background:url(http://www.w3newbie.com/wp-content/uploads/icon.jpg)center;
+  }
+a:hover menu-icon{
+        border-radius:4px 4px 0 0;
+		}
+ul{
+list-style:none;
+}
+/*nav ul li{
+display:inline-block;
+padding:10px;
+float:left;
+}*/
+.current{
+color:#FF2492;
+text-decoration:underline;
+}
+		
+#doc{
+       margin:40px 0;
+	   }
+#content{
+margin:0 auto;
+max-width:1140px;
+margin-top:110px;
+}
+.juice{
+max-width:960px;
+margin-top:110px;
+}
+
+section{ width:29%;
+float:left;
+margin:2% 2%;
+text-align:center;
+}
+article{
+       float:left;
+	   margin:0 auto;
+	   width:50%;
+	   height:auto;
+	   padding:4%;
+	   }
+aside{
+        float:right;
+		margin:0  auto;
+		width:35%;
+		height:auto;
+		padding:3%;
+		}
+		
+footer{
+background-color:#6C3;
+width:100%;
+overflow:hidden;
+
+}
+
+
+#navi{
+	  background-color:#6C3;
+	  height:40%;
+	  color:#000;
+	  
+	  }
+	
+   </style>
+   
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/shrek juice.jpg" />
+                <!--<div style="position:absolute;top:30px;left:30px;width:480px;height:120px;z-index:0;font-size:50px;color:#ffffff;line-height:60px;">TOUCH SWIPE SLIDER</div>
+                <div style="position:absolute;top:300px;left:30px;width:480px;height:120px;z-index:0;font-size:30px;color:#ffffff;line-height:38px;">Build your slider with anything, includes image, content, text, html, photo, picture</div>-->
+                <div style="position:absolute;top:120px;left:650px;width:470px;height:220px;z-index:0;">
+                   <!-- <img style="position:absolute;top:0px;left:0px;width:470px;height:220px;z-index:0;" src="img/c-phone-horizontal.png" />-->
+                    <div style="position:absolute;top:4px;left:45px;width:379px;height:213px;z-index:0; overflow:hidden;">
+                       <!-- <img data-u="caption" data-t="0" style="position:absolute;top:0px;left:0px;width:379px;height:213px;z-index:0;" src="mocktail 2.jpeg" />-->
+                       <!-- <img data-u="caption" data-t="1" style="position:absolute;top:0px;left:379px;width:379px;height:213px;z-index:0;" src="smoothies 2.jpg" />-->
+                    </div>
+                    <!--<img style="position:absolute;top:4px;left:45px;width:379px;height:213px;z-index:0;" src="shrek juice.jpg"/>
+                    <img data-u="caption" data-t="2" style="position:absolute;top:476px;left:454px;width:63px;height:77px;z-index:0;" src="smoothies 1.jpg" />-->
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="img/mocktail 2.png" />
+            </div>
+            <div>
+                <img data-u="image" src="img/fruit-juice-concentrates.jpg"/>
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
+    </div>
+		
+<br>
+<br>
+    <div style="width:1000; height:1000; background-color:#6C3; font-family:'MS Serif', 'New York', serif; font-style:italic; padding:20px;" ><span style="font-size:xx-large; font-family:'Lucida Console', Monaco, monospace; text-align:center; margin-left:50; color:#C30;"><center><strong>DELICIOUS SMOOTHIES</strong></center></span></div>
+    
+	  
+     
+   <!--<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:300px;overflow:hidden;visibility:hidden;">
+//        <!-- Loading Screen -->
+       <!--<div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:300px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/image 1.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/image 2.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/smoothies 1.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/protien shakes.jpg" />
+            </div>
+        </div>*/
+        <!-- Bullet Navigator -->
+        <!--<div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <!--<div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <!--<span data-u="arrowleft" class="jssora12l" style="top:0px;left:0px;width:30px;height:46px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora12r" style="top:0px;right:0px;width:30px;height:46px;" data-autocenter="2"></span>
+    </div>*/-->
+	
+
+
+<div style="margin:30px;"class="row">
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+    	<div  class="thumbnail bg-success">
+        	<img src="img/07-strawberry-kiwi-COMP-252449.jpg" width="100" height="50" class="img">
+            <div class="caption">
+            	<p><strong style="text-decoration:underline; color:#000;">Strawberry-Kiwi Smoothie</strong><br>Stay full and fight disease. This high-fiber smoothie recipe becomes even healthier when you use organic kiwis, which contain higher levels of heart-healthy polyphenols and vitamin C.</p>
+            	
+            </div>
+        </div>
+    	
+    </div>
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+    	
+        <div class="thumbnail">
+        	<img src="img/09-tropical-papaya-COMP-1666426.jpg" width="100" height="50" class="img">
+            <div class="caption">
+            	<p ><strong style="text-decoration:underline; color:#000;"><br>Tropical Papaya Perfection </strong><br>Thick like a milkshake, this coconut-infused smoothie recipe transports you to a tropical island.. </p><br>
+            	
+            </div>
+        </div>
+    	
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+    	
+        <div class="thumbnail">
+        	<img src="img/08-blueberry-soy3-COMP-367151.jpg" width="100" height="50"  class="img">
+            <div class="caption">
+            	<p ><strong style="text-decoration:underline;color:#000;">Blueberry-Soy Smoothie</strong>
+                <br>Succulent, summer-ripe blueberries burst with flavor in this delicious smoothie. Skip the sugar or artificial sweetener for a healthier pick; the fruit makes it naturally sweet.</p>
+            	
+            </div>
+        </div>
+    	
+    </div>
+</div>  
+
+<div style="margin:30px;"class="row">
+	
+    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+    	
+        <div  class="thumbnail bg-success">
+        	<img src="img/11-apricot-mango-TS-179160662.jpg"
+           width="275" height="100" class="img">
+            <div class="caption">
+            	<p><strong style="text-decoration:underline; color:#000;"><br>Apricot-Mango Madness  </strong><br>Fresh lemon juice adds a tangy splash to this sweet smoothie.</p>
+            	
+            </div>
+        </div>
+    	
+    </div>
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+    	
+        <div class="thumbnail">
+        	<img src="img/18-slim-down-smoothie-TS-174175127.jpg"
+             width="275" height="170" class="img">
+            <div class="caption">
+            	<p ><strong style="text-decoration:underline;color:#000;"><br>Slim-Down Smoothie</strong><br>Wonderfully thick and tasty, this healthy smoothie recipe easily substitutes for milkshakes and ice cream..</p>
+            	
+            </div>
+        </div>
+    	
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+    	
+        <div class="thumbnail">
+        	<img style="height:150" src="img/01-banana-smoothie-TS-178834536.jpg" width="275" class="img">
+            <div class="caption">
+            	<p ><strong style="text-decoration:underline; color:#000;">
+               Banana Ginger Smoothie</strong>
+                <br>Soothe digestion, heartburn, nausea, and other stomach trouble with the fresh ginger in this natural remedy smoothie recipe.  </p>
+            	
+            </div>
+        </div>
+    	
+    </div>
+</div>  
+
+<div class="clear"></div>
+
+<aside>
+
+</aside>
+
+<footer>
+
+<span align="left"><img src="img/footer.png" width="70" height="70"></span>
+&copy Copyrights 2017  &nbsp;  &nbsp; <a href="contact.html">Contact</a> &nbsp; &nbsp;<a href="feedback.html">Feedback</a>
+
+ 
+</footer>
+
+</body>
+</html>
